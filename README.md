@@ -6,7 +6,7 @@ FocusHop is proprietary macOS software by DigzBite GmbH. This repository provide
 - [Report a bug or request a feature](https://github.com/Digzbite/FocusHop-releases/issues/new/choose)
 - [Visit DigzBite](https://digzbite.de)
 
-Requires macOS 26 or later. FocusHop costs EUR 2.99 per month plus applicable tax, with a seven-day trial through hosted checkout.
+Requires macOS 14 or later. Native glass effects require macOS 26 or later. FocusHop costs EUR 2.99 per month plus applicable tax, with a seven-day trial through hosted checkout.
 
 No application download has been published yet. Release assets will appear on the Releases page when available.
 
