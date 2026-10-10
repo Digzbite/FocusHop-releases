@@ -1,8 +1,26 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>FocusHop</title>
+        <item>
+            <title>1.0.2</title>
+            <pubDate>Sat, 10 Oct 2026 19:00:16 +0000</pubDate>
+            <sparkle:version>43</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# FocusHop 1.0.2
+
+This preview adds a DMG installer and provides the next signed update for testing from FocusHop 1.0.1. It continues to use the Lemon Squeezy test store.
+
+- Install manually by opening the signed, notarized DMG and dragging FocusHop to Applications.
+- Keep the ZIP download available for Sparkle updates through the signed preview feed.
+- Verify either download against the published SHA-256 checksums.
+]]></description>
+            <enclosure url="https://github.com/Digzbite/FocusHop-releases/releases/download/v1.0.2/FocusHop-1.0.2-macos-universal.zip" length="4611156" type="application/octet-stream" sparkle:edSignature="IFrkbpHSWlefpqf0MbOhBfr0ZyVs+x+q+QMlXERfn0f822g4BURTwtAwSXkzfqbSjITurpkxwn3mX4uPX28YCg=="/>
+        </item>
         <item>
             <title>1.0.1</title>
             <pubDate>Sat, 10 Oct 2026 18:36:10 +0000</pubDate>
@@ -21,10 +39,11 @@ This preview adds clearer account settings and a consistent path to subscription
 
 - Check for and install signed updates with Sparkle from About or the menu bar, with an automatic-check preference stored in the settings JSON.
 ]]></description>
-            <enclosure url="https://github.com/Digzbite/FocusHop-releases/releases/download/v1.0.1/FocusHop-1.0.1-macos-universal.zip" length="4611190" type="application/octet-stream" sparkle:edSignature="T93AOx2WISv0yJg1GB7KoBOhoplIGWRbjQsBLl7GmC/bNFkdpgPGpimbDKtfouHzdeFPXyIQ9tuK8F/Mp/tKBQ=="></enclosure>
+            <enclosure url="https://github.com/Digzbite/FocusHop-releases/releases/download/v1.0.1/FocusHop-1.0.1-macos-universal.zip" length="4611190" type="application/octet-stream" sparkle:edSignature="T93AOx2WISv0yJg1GB7KoBOhoplIGWRbjQsBLl7GmC/bNFkdpgPGpimbDKtfouHzdeFPXyIQ9tuK8F/Mp/tKBQ=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: XChZqUCG1VtbHSxgafDdcF+6rfzpnpPuWbwbQj4C91nhBQxc7nteW9m3caLhVTBBk1PwNNUn72NY0GDwnW41Cg==
-length: 1826
+</rss>
+<!-- sparkle-signatures:
+edSignature: MEDIzwkuOkjvsUEgajb/MNQOrrvsc3CXftDNQHegXKrEibJ+Ur2KwcQM/8cBeDAnER1KBzMdlMWKmJiwSdx7AQ==
+length: 2943
 -->
