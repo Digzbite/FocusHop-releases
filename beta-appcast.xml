@@ -6,6 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FocusHop</title>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Sat, 10 Oct 2026 19:44:12 +0000</pubDate>
+            <sparkle:version>44</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# FocusHop 1.0.3
+
+This preview fixes Vim sessions ending when a rich-text editor replaces its accessibility objects after deletion. It continues to use the Lemon Squeezy test store.
+
+- Keep Vim active after confirmed edits replace an input inside the same editing container, including deleting its last line and typing again.
+- Preserve quick `jk` and automatic Insert sessions through the same verified transitions.
+- Continue ending the session when focus moves elsewhere or the replacement cannot be safely verified.
+- Allow failed release publication to resume safely, reusing verified published installers and repairing the signed update feed without replacing released files.
+]]></description>
+            <enclosure url="https://github.com/Digzbite/FocusHop-releases/releases/download/v1.0.3/FocusHop-1.0.3-macos-universal.zip" length="4622112" type="application/octet-stream" sparkle:edSignature="3A6yHq0CJV3pnZyW5P10k1TsutUOjOTN4H3wS6Y/KpuJbsGfGkzJywQY96Vwdou8MbQwbHnvy7bL31GpBLNkDw=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Sat, 10 Oct 2026 19:00:16 +0000</pubDate>
             <sparkle:version>43</sparkle:version>
@@ -44,6 +61,6 @@ This preview adds clearer account settings and a consistent path to subscription
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: MEDIzwkuOkjvsUEgajb/MNQOrrvsc3CXftDNQHegXKrEibJ+Ur2KwcQM/8cBeDAnER1KBzMdlMWKmJiwSdx7AQ==
-length: 2943
+edSignature: 3FlsldPSg59Y8IveHhlM4C53TdNO4RAGhzA63YibwDcOfrE3hAzQGBJCTrhnzk9h6l1jEBTZO+UR95DmD3t/Aw==
+length: 4330
 -->
