@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a problem with FocusHop.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Please remove license keys, personal information, and other secrets from reports, screenshots, and logs."
+  - type: input
+    id: version
+    attributes:
+      label: FocusHop version
+      placeholder: "For example: 1.0 (build 1)"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "For example: macOS 26.0"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the affected app and its version when relevant.
+      placeholder: "1. ...\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Optional screenshots or logs with sensitive information removed.

@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest an improvement to FocusHop.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Please do not include license keys, personal information, or other secrets."
+  - type: input
+    id: version
+    attributes:
+      label: FocusHop version
+      placeholder: "For example: 1.0 (build 1)"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "For example: macOS 26.0"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to demonstrate the current limitation
+      description: Describe the workflow that would benefit from this feature.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
