@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>FocusHop</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Sat, 10 Oct 2026 18:36:10 +0000</pubDate>
+            <sparkle:version>42</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# FocusHop 1.0.1
+
+This preview adds clearer account settings and a consistent path to subscription checkout. It uses the Lemon Squeezy test store.
+
+- Open subscription checkout in your browser.
+- Find the app version, company website, and third-party acknowledgments on the new About page.
+- Improve settings alignment and keep application overrides from changing the window size.
+- Fix an accessibility crash when reading active-license account information.
+- Allow a previously validated license to work offline for up to seven days.
+
+- Check for and install signed updates with Sparkle from About or the menu bar, with an automatic-check preference stored in the settings JSON.
+]]></description>
+            <enclosure url="https://github.com/Digzbite/FocusHop-releases/releases/download/v1.0.1/FocusHop-1.0.1-macos-universal.zip" length="4611190" type="application/octet-stream" sparkle:edSignature="T93AOx2WISv0yJg1GB7KoBOhoplIGWRbjQsBLl7GmC/bNFkdpgPGpimbDKtfouHzdeFPXyIQ9tuK8F/Mp/tKBQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: XChZqUCG1VtbHSxgafDdcF+6rfzpnpPuWbwbQj4C91nhBQxc7nteW9m3caLhVTBBk1PwNNUn72NY0GDwnW41Cg==
+length: 1826
+-->
