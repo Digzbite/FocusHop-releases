@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FocusHop</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Wed, 14 Oct 2026 21:17:53 +0000</pubDate>
+            <sparkle:version>45</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# FocusHop 1.0.4
+
+This preview improves Vim editing, autocomplete selection and visible native window controls. It continues to use the Lemon Squeezy test store.
+
+- Keep Vim editing active when a single-line field cannot accept a line-opening command. The command leaves its text and cursor unchanged.
+- Handle multiline inputs exposed as autocomplete comboboxes without assuming that a one-row appearance means single-line editing.
+- Discover individually actionable suggestions inside autocomplete controls, while continuing to exclude hidden, covered, disabled and passive content.
+- Discover visible full-screen native tabs and application menu-bar entries through their accessibility relationships. Hidden and covered controls remain excluded.
+- Include downloadable JSON and Markdown benchmark reports with every release. Compare retained search matching and available offscreen Metal drawing measurements against the validated baseline on the same runner, with clear scope and slowdown warnings. Full AX and compositor measurements remain separate physical-Mac checks.
+]]></description>
+            <enclosure url="https://github.com/Digzbite/FocusHop-releases/releases/download/v1.0.4/FocusHop-1.0.4-macos-universal.zip" length="4676676" type="application/octet-stream" sparkle:edSignature="oSIB/T/NqlLruAqpUTc0SRli4pUKu3vEWkiG86vddQTh9GvGOY3dznF4SS3/Z8fMISkAj9naV3rR+87rxdwXCg=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Sat, 10 Oct 2026 19:44:12 +0000</pubDate>
             <sparkle:version>44</sparkle:version>
@@ -61,6 +79,6 @@ This preview adds clearer account settings and a consistent path to subscription
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 3FlsldPSg59Y8IveHhlM4C53TdNO4RAGhzA63YibwDcOfrE3hAzQGBJCTrhnzk9h6l1jEBTZO+UR95DmD3t/Aw==
-length: 4330
+edSignature: E1kuu67UXqAKaFGC4fJ7I2ZPEj0GguVWaI8uNNmwiCVKtZJaSZ17FzTyiaSET6AGnhc8yeZF6expbmDfiPKiAw==
+length: 6111
 -->
