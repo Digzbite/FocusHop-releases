@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FocusHop</title>
         <item>
+            <title>1.0.5</title>
+            <pubDate>Wed, 14 Oct 2026 22:22:43 +0000</pubDate>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# FocusHop 1.0.5
+
+This preview fixes activation failures under load. It continues to use the Lemon Squeezy test store.
+
+- Keep Clicking available when optional native-chrome discovery is incomplete or changes during a scan. Window and menu identity checks, and individual control visibility checks, remain in place.
+- Prevent repeated focus notifications from continually restarting Vim setup. Recover temporary Accessibility failures with bounded retries, and give activation user-initiated priority.
+- Register the Vim focus observer off the main thread and avoid unnecessary attribute discovery for known multiline text areas.
+- Measure Fast jk using key timestamps, so delayed callbacks do not make a physically fast gesture appear slow. Genuinely slow gestures remain ordinary text input.
+
+The release includes paired benchmark reports. Hosted CI measurements cover retained search matching and available offscreen Metal rendering; live AX and compositor measurements require a physical Mac.
+]]></description>
+            <enclosure url="https://github.com/Digzbite/FocusHop-releases/releases/download/v1.0.5/FocusHop-1.0.5-macos-universal.zip" length="4693196" type="application/octet-stream" sparkle:edSignature="/+dLogtnQJV08RbiR5NGndjCXcAgvhmEiQVmARQXfw85AGVmUiDWK4RxP0g9jkzKZAUUNRwqeYjDlFjVFb0JCA=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <pubDate>Wed, 14 Oct 2026 21:17:53 +0000</pubDate>
             <sparkle:version>45</sparkle:version>
@@ -79,6 +98,6 @@ This preview adds clearer account settings and a consistent path to subscription
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: E1kuu67UXqAKaFGC4fJ7I2ZPEj0GguVWaI8uNNmwiCVKtZJaSZ17FzTyiaSET6AGnhc8yeZF6expbmDfiPKiAw==
-length: 6111
+edSignature: dDajGbF92ctYZBaVinBIfFFqFzUzmLnQ4sGpFBbHaXBt+xd5l1eO22bRcvlk5Oxd8iOuUyabrXKEEKPDm722BA==
+length: 7813
 -->
