@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FocusHop</title>
         <item>
+            <title>1.0.6</title>
+            <pubDate>Sun, 08 Nov 2026 22:24:23 +0000</pubDate>
+            <sparkle:version>47</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# FocusHop 1.0.6
+
+This preview improves Clicking responsiveness and recognizes more selectable items. It continues to use the Lemon Squeezy test store.
+
+- Trigger shortcuts on the initial key press, without waiting for key release or repeating while a shortcut is held.
+- Reuse prepared click targets without repeating optional native-chrome discovery. Hidden, moved, and covered native controls still trigger fresh discovery before hints appear.
+- Recognize selectable items that expose an Accessibility Open action, including Finder file and folder icons. Selecting a hint delivers a single click rather than opening the item.
+- Consolidate Applications and display appearance settings into dedicated components while preserving navigation state, shared controls, layout, and color-editor behavior.
+- Expose every benchmark scenario through Xcode test plans and organize UI tests by behavior.
+
+The release includes paired CI benchmark reports. Local verification includes 24 Open-only item checks, 157 foreground snapshot checks, 80 native/WebKit overlay frames, and focused settings layout checks. GPU completion measurements do not represent compositor presentation time.
+]]></description>
+            <enclosure url="https://github.com/Digzbite/FocusHop-releases/releases/download/v1.0.6/FocusHop-1.0.6-macos-universal.zip" length="4676474" type="application/octet-stream" sparkle:edSignature="6sJ6ajek2syzegUm8967caMEPJ69GUKQ5BlNifh5qKY42kdS3BO8ICqMYYcVyB80K8CJF4eVP0Svz47xjt3eAA=="/>
+        </item>
+        <item>
             <title>1.0.5</title>
             <pubDate>Wed, 14 Oct 2026 22:22:43 +0000</pubDate>
             <sparkle:version>46</sparkle:version>
@@ -98,6 +118,6 @@ This preview adds clearer account settings and a consistent path to subscription
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: dDajGbF92ctYZBaVinBIfFFqFzUzmLnQ4sGpFBbHaXBt+xd5l1eO22bRcvlk5Oxd8iOuUyabrXKEEKPDm722BA==
-length: 7813
+edSignature: +GmTkydV8P9U49WRRbphT4wSS/TdTSGCDwHdFMFBopWwA7+nDsd0t7V2w4m4ZhLMm4B6/1dSnZNH3sSihzgwAQ==
+length: 9694
 -->
