@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FocusHop</title>
         <item>
+            <title>1.0.7</title>
+            <pubDate>Mon, 09 Nov 2026 10:27:46 +0000</pubDate>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# FocusHop 1.0.7
+
+This preview consolidates navigation lifecycle handling and completes the project cleanup. It continues to use the Lemon Squeezy test store.
+
+- Recover pending Clicking, Search, and Scrolling overlays when a display change briefly makes the target app's Accessibility window unavailable.
+- Keep navigation cancellation, live updates, and overlay state under one owner, with verified focus takeover, display changes, license expiry, and handoff to Vim editing.
+- Preserve the fast prepared-target path: repeated acquisitions after webpage changes do not start additional tree scans.
+- Consolidate benchmark fixture support and freeze complete build dependencies for reproducible Swift and Xcode runs.
+
+Local verification includes 50 focus-takeover checks, 35 display and license checks, 245 WebKit/Chromium snapshot assertions, and focused unit and runner tests. The release also includes paired CI benchmark reports.
+]]></description>
+            <enclosure url="https://github.com/Digzbite/FocusHop-releases/releases/download/v1.0.7/FocusHop-1.0.7-macos-universal.zip" length="4693204" type="application/octet-stream" sparkle:edSignature="J6/+Ux/tdCRfpIAKnTCOZX3/GAF3bLOSczG4ODbTBWGOIAGMe1bbutdZXNgJdmWsEyDuU398J0vmQPDvBy7hDQ=="/>
+        </item>
+        <item>
             <title>1.0.6</title>
             <pubDate>Sun, 08 Nov 2026 22:24:23 +0000</pubDate>
             <sparkle:version>47</sparkle:version>
@@ -118,6 +137,6 @@ This preview adds clearer account settings and a consistent path to subscription
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: +GmTkydV8P9U49WRRbphT4wSS/TdTSGCDwHdFMFBopWwA7+nDsd0t7V2w4m4ZhLMm4B6/1dSnZNH3sSihzgwAQ==
-length: 9694
+edSignature: 7JJwnzuHlUNbZ7222F2UBYvITbtU8u7tFj051ArJmnt9IJJBagq6Aj6kp0n5aB/8+4CkCqOn38goS9EVtvb8AA==
+length: 11334
 -->
