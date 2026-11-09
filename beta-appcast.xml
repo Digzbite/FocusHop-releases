@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FocusHop</title>
         <item>
+            <title>1.0.8</title>
+            <pubDate>Mon, 09 Nov 2026 21:50:50 +0000</pubDate>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# FocusHop 1.0.8
+
+This preview improves hint placement in closely spaced rows and toolbars. It continues to use the Lemon Squeezy test store.
+
+- Prefer a different side when a hint would cover a neighboring control, even when the hints themselves do not overlap.
+- Ignore enclosing parent controls when scoring obstruction, so large panels do not unnecessarily displace their child hints.
+- Preserve centered input and scroll-area badges, and keep every hint available when no unobstructed placement exists.
+
+The check shares the existing GPU collision pass and requires no additional Accessibility reads or persistent geometry cache. Local verification passed 27 placement and rendering tests. Three paired 16-sample solver runs measured approximately 0.07 ms additional median cost at 500 hints and 2 ms at 3,000 hints on the test Mac. The release also includes paired CI benchmark reports.
+]]></description>
+            <enclosure url="https://github.com/Digzbite/FocusHop-releases/releases/download/v1.0.8/FocusHop-1.0.8-macos-universal.zip" length="4700648" type="application/octet-stream" sparkle:edSignature="UUQsi8/Ftgp07il9U2ojGlmSLAE2UMkhOglzYOpZ/vPBhH1L/b/kO2g978eWO1r8VEHxZqAN0DLrGkQHljtWBA=="/>
+        </item>
+        <item>
             <title>1.0.7</title>
             <pubDate>Mon, 09 Nov 2026 10:27:46 +0000</pubDate>
             <sparkle:version>48</sparkle:version>
@@ -137,6 +155,6 @@ This preview adds clearer account settings and a consistent path to subscription
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 7JJwnzuHlUNbZ7222F2UBYvITbtU8u7tFj051ArJmnt9IJJBagq6Aj6kp0n5aB/8+4CkCqOn38goS9EVtvb8AA==
-length: 11334
+edSignature: Np05TBVjF5vkbH4955OB1xaCfLJOR16ViAHiJdoNfKOqCjpt+mJFT5/swh8oJOVbsZocooh2vOYVQeFhCjBWCw==
+length: 12932
 -->
